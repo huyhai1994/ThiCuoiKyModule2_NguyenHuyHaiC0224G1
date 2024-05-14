@@ -23,6 +23,12 @@ public class View {
         Scanner scanner = getScanner();
         return scanner.nextInt();
     }
+    public void navigatingToRegexController(){
+        this.regexController = new RegexController();
+        int userChoise = getChoice();
+
+
+    }
     public Scanner getScanner(){
         return new Scanner(System.in);
     }

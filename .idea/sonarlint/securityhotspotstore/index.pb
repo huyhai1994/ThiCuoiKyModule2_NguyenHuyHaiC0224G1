@@ -79,3 +79,7 @@ V
 +test/patientmanager/PatientManagerTest.java,8/9/89951d856ee4f9df2195bdc5144284cd61594818
 G
 test/view/ViewTest.java,c/d/cd45e6ee77dbc5bd70ded84d8b0317dac814a52f
+H
+src/regex/DateRegex.java,3/6/36519b6163eed71801dfc1954bebde2ae8959e49
+M
+test/regex/DateRegexTest.java,3/6/368a71fc504037893e3aa4e29645827430a0aace
