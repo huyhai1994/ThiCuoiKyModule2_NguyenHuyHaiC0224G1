@@ -1,6 +1,7 @@
 package patient;
 
 import org.junit.Test;
+import org.junit.jupiter.api.DisplayName;
 import patient.relatedinformations.HealthRecordCode;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -25,10 +26,12 @@ public class PatientTest {
       assertEquals("name", patient.getName());
   }
   @Test
-    public void setHealthRecordCode(){
-      Patient patient = new Patient();
-      patient.setHealthRecordCode(new HealthRecordCode());
-      assertEquals(new HealthRecordCode(), patient.getHealthRecordCode());
+  @DisplayName("Right cases...->return true")
+  public void getHealthRecordCode() {
+    Patient patient = new Patient("Nguyen Van A");
+    HealthRecordCode healthRecordCode = new HealthRecordCode();
+    patient.setHealthRecordCode("BA-123");
+    assertEquals("BA-123", patient.getHealthRecordCode());
   }
 
 }

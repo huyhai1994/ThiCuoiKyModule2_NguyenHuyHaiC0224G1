@@ -11,11 +11,22 @@ public class Patient {
     private HospitalizationDate hospitalizationDate;
     private Reason reason;
 
-    public Patient() {
+    public Patient(){
+        this.name = "";
+        this.patientID = new PatientId();
+        this.healthRecordCode = new HealthRecordCode();
+        this.healthRecordID = new HealthRecordId();
+        this.hospitalizationDate = new HospitalizationDate();
+        this.reason = new Reason();
 
     }
     public Patient(String name) {
         this.name = name;
+        this.patientID = new PatientId();
+        this.healthRecordCode = new HealthRecordCode();
+        this.healthRecordID = new HealthRecordId();
+        this.hospitalizationDate = new HospitalizationDate();
+        this.reason = new Reason();
 
     }
     public void setName(String name) {
@@ -26,35 +37,11 @@ public class Patient {
         return this.name;
     }
 
-    public HealthRecordCode getHealthRecordCode() {
-        return healthRecordCode;
+    public void setHealthRecordCode(String healthRecordCode) {
+        this.healthRecordCode.setRecordCode(healthRecordCode);
     }
 
-    public void setHealthRecordCode(HealthRecordCode healthRecordCode) {
-        this.healthRecordCode = healthRecordCode;
-    }
-
-    public HealthRecordId getHealthRecordID() {
-        return healthRecordID;
-    }
-
-    public void setHealthRecordID(HealthRecordId healthRecordID) {
-        this.healthRecordID = healthRecordID;
-    }
-
-    public HospitalizationDate getHospitalizationDate() {
-        return hospitalizationDate;
-    }
-
-    public void setHospitalizationDate(HospitalizationDate hospitalizationDate) {
-        this.hospitalizationDate = hospitalizationDate;
-    }
-
-    public Reason getReason() {
-        return reason;
-    }
-
-    public void setReason(Reason reason) {
-        this.reason = reason;
+    public String getHealthRecordCode() {
+        return this.healthRecordCode.getRecordCode();
     }
 }

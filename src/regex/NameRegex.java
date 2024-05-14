@@ -7,12 +7,11 @@ public class NameRegex implements Regex {
 
     @Override
     public String getRegex() {
-        return "";
+        return this.regex;
     }
-
     @Override
     public void setRegex(String regex) {
-
+       this.regex = regex;
     }
 
     @Override
@@ -22,11 +21,12 @@ public class NameRegex implements Regex {
 
     @Override
     public String getErrorMessage() {
-        return "";
+        return this.errorMessage;
     }
 
     @Override
     public void setErrorMessage(String errorMessage) {
+        this.errorMessage = errorMessage;
 
     }
 }
