@@ -7,7 +7,7 @@ public class Patient {
     private String name;
     private PatientId patientID;
     private HealthRecordCode healthRecordCode;
-    private HealthRecordId healthRecordID;
+    private HealthRecordId healthRecordId;
     private HospitalizationDate hospitalizationDate;
     private Reason reason;
 
@@ -15,7 +15,7 @@ public class Patient {
         this.name = "";
         this.patientID = new PatientId();
         this.healthRecordCode = new HealthRecordCode();
-        this.healthRecordID = new HealthRecordId();
+        this.healthRecordId = new HealthRecordId();
         this.hospitalizationDate = new HospitalizationDate();
         this.reason = new Reason();
 
@@ -24,7 +24,7 @@ public class Patient {
         this.name = name;
         this.patientID = new PatientId();
         this.healthRecordCode = new HealthRecordCode();
-        this.healthRecordID = new HealthRecordId();
+        this.healthRecordId = new HealthRecordId();
         this.hospitalizationDate = new HospitalizationDate();
         this.reason = new Reason();
 
@@ -43,5 +43,12 @@ public class Patient {
 
     public String getHealthRecordCode() {
         return this.healthRecordCode.getRecordCode();
+    }
+
+    public void setHealthRecordId(String input) {
+        this.healthRecordId.setId(input);
+    }
+    public String getHealthRecordId() {
+        return this.healthRecordId.getId();
     }
 }

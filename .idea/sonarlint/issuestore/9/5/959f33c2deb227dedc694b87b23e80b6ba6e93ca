@@ -1,10 +1,7 @@
 
-p
-java:S1068"-Remove this unused "patientID" private field.(»ìà³8Î°£¬÷1J$a67ea3a4-d89c-4119-b221-3fb448e01412
-u
-java:S1068
-"2Remove this unused "healthRecordID" private field.(ºäŞ8Î°£¬÷1J$48379244-4b4a-40be-a73b-d3bbfb04deec
-z
-java:S1068"7Remove this unused "hospitalizationDate" private field.(Øèø‰8Î°£¬÷1J$a4df0ace-9b84-4d51-8511-19892147ef54
-r
-java:S1068"*Remove this unused "reason" private field.(çÊ†—üÿÿÿÿ8Ï°£¬÷1J$c724f934-16ac-44e5-9635-5a70a13f6a19
+J
+java:S1068"-Remove this unused "patientID" private field.(»ìà³8ÍçÓ¬÷1
+T
+java:S1068"7Remove this unused "hospitalizationDate" private field.(Øèø‰8ÍçÓ¬÷1
+L
+java:S1068"*Remove this unused "reason" private field.(çÊ†—üÿÿÿÿ8ÎçÓ¬÷1
