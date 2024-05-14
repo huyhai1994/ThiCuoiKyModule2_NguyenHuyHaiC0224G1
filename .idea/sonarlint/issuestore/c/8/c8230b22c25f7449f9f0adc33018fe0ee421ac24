@@ -1,5 +1,9 @@
 
 Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ûü½ù8¹…º®÷1J$ebf5734e-c77e-4677-be98-deab93a0dbad
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(î‹Ö¯8Ü‚‚³÷1J$4116e18a-d493-4fa5-96e9-0d6d64f99449
 É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ÿµìüÿÿÿÿÿ8³åÇ¨÷1J$83b1e18e-5940-4e34-b61c-6d1125377f06
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ÿµìüÿÿÿÿÿ8Ü‚‚³÷1J$f2f6aaf0-a524-4985-9728-0f44920a661d
+z
+java:S1068"2Remove this unused "patientManager" private field.(¥ÕºÓúÿÿÿÿ8á‚‚³÷1J$986934e3-90eb-4e8c-a4fd-6c04c5483daf
+n
+java:S1068	"+Remove this unused "regexes" private field.(åÃü„8á‚‚³÷1J$58fa65c2-fe38-4a8c-8415-ab631ce15101

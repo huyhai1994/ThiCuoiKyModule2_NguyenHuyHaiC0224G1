@@ -1,9 +1,6 @@
 package view;
 
 import org.junit.Test;
-import org.junit.jupiter.api.DisplayName;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 public class ViewTest {
     @Test
@@ -11,6 +8,7 @@ public class ViewTest {
         View view = new View();
         view.printIntroduction();
     }
+
     @Test
     public void printMenu() {
         View view = new View();

@@ -87,3 +87,15 @@ H
 src/regex/NameRegex.java,a/a/aa8963e29dfb07144936a2721798734550b49d46
 M
 test/regex/NameRegexTest.java,8/d/8d971ffb99ca1dd1caefc1f422e80d08ff430f05
+U
+%src/healthrecord/operators/Class.java,c/a/ca4a5bdf9323a9556adc3b54f85c225310943088
+b
+2src/healthrecord/operators/CreateHealthRecord.java,8/4/84ff31ab7733e3ec34533b10f9faa2c6bc0f9cc2
+d
+4src/healthrecord/operators/HealthRecordOperator.java,7/1/717d15122fe10a0aa80c25439919be42ec1af72b
+`
+0src/healthrecord/operators/ReadHealthRecord.java,9/0/90f131a18645dd3f46c2f7d91af736b29fef5a52
+b
+2src/healthrecord/operators/UpdateHealthRecord.java,8/d/8db211a3477ab4d2552c8671b422e7488dc61f14
+b
+2src/healthrecord/operators/DeleteHealthRecord.java,c/6/c602991523d0c2c158469aa6f5bacc2f19a668f9

@@ -10,12 +10,14 @@ public class View {
     public View(){
     }
     public void printIntroduction(){
-        System.out.println("CHƯƠNG TRÌNH QUẢN LÝ BỆNH ÁN");
+        System.out.println("CHƯƠNG TRÌNH QUẢN LÝ " +
+                "BỆNH ÁN");
     }
     public void printMenu(){
         System.out.println("1. Thêm mới");
         System.out.println("2. Xóa" );
-        System.out.println("3. Xem danh sách các bệnh án");
+        System.out.println("3. " +
+                "Xem danh sách các bệnh án");
         System.out.println("4. Thoát");
         System.out.println("Mời bạn chọn chức năng: ");
     }
@@ -26,7 +28,7 @@ public class View {
         }
         catch (Exception e){
             System.out.println(e.getMessage());
-            throw new IllegalStateException("Nhap sai");
+                        throw new IllegalStateException("Nhap sai");
         }
     }
 
@@ -35,7 +37,7 @@ public class View {
     }
 
     public void navigateToRegexControllers(int userChoice) {
-        regexController.navigateToPatientManager();
+        regexController.navigateToPatientManager(userChoice);
 
     }
 }

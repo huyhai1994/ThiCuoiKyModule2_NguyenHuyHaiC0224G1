@@ -6,31 +6,40 @@ import java.util.ArrayList;
 
 public class PatientManager {
     private ArrayList<Patient> patients;
-    public PatientManager(){
-        this.patients = new ArrayList<Patient>();
+
+    public PatientManager() {
+        this.patients = new ArrayList<>();
     }
-    public void addPatient(Patient patient){
+
+    public void addPatient(Patient patient) {
         this.patients.add(patient);
     }
-    public void removePatient(Patient patient){
+
+    public void removePatient(Patient patient) {
         this.patients.remove(patient);
     }
-    public ArrayList<Patient> getPatients(){
+
+    public ArrayList<Patient> getPatients() {
         return this.patients;
     }
-    public Patient getPatient(int index){
+
+    public Patient getPatient(int index) {
         return this.patients.get(index);
     }
-    public int getSize(){
+
+    public int getSize() {
         return this.patients.size();
     }
-    public void clear(){
+
+    public void clear() {
         this.patients.clear();
     }
-    public boolean isEmpty(){
+
+    public boolean isEmpty() {
         return this.patients.isEmpty();
     }
-    public String toString(){
+
+    public String toString() {
         return this.patients.toString();
     }
 
