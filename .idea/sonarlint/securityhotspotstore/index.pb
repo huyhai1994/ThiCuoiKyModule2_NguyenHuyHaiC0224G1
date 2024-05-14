@@ -83,3 +83,7 @@ H
 src/regex/DateRegex.java,3/6/36519b6163eed71801dfc1954bebde2ae8959e49
 M
 test/regex/DateRegexTest.java,3/6/368a71fc504037893e3aa4e29645827430a0aace
+H
+src/regex/NameRegex.java,a/a/aa8963e29dfb07144936a2721798734550b49d46
+M
+test/regex/NameRegexTest.java,8/d/8d971ffb99ca1dd1caefc1f422e80d08ff430f05

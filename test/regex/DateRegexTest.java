@@ -36,5 +36,8 @@ public class DateRegexTest {
         assertFalse(dateRegex.validate("50/01/2020"));
         assertFalse(dateRegex.validate("13/15/2020"));
         assertFalse(dateRegex.validate("01/01/1"));
+        assertFalse(dateRegex.validate("01/01/20200"));
+        assertFalse(dateRegex.validate("//202"));
+        assertFalse(dateRegex.validate("//"));
     }
 }
