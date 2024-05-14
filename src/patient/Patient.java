@@ -4,7 +4,6 @@ import healthrecord.type.*;
 import patient.relatedinformations.*;
 
 public class Patient {
-
     private String name;
     private PatientId patientID;
     private HealthRecordCode healthRecordCode;
@@ -53,6 +52,7 @@ public class Patient {
     public void setHealthRecordId(String input) {
         this.healthRecordId.setId(input);
     }
+
     public String getHealthRecordId() {
         return this.healthRecordId.getId();
     }
@@ -64,6 +64,7 @@ public class Patient {
     public void setHospitalizationDateIn(String inputDateIn) {
         this.hospitalizationDateIn.setDate(inputDateIn);
     }
+
     public String getHospitalizationDateOut() {
         return this.hospitalizationDateOut.getDate();
     }

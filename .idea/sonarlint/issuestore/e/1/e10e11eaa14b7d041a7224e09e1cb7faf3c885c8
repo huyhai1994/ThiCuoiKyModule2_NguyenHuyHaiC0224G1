@@ -1,18 +1,13 @@
 
 É
 java:S1186
-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ã„¢Œúÿÿÿÿ8ØÂ ª÷1J$c3259f4e-8bc2-4490-89d4-165ee0774fec
-¦
-java:S1450"^Remove the "regexController" field and declare it as a local variable in the relevant methods.(ë¬Òºÿÿÿÿÿ8ÚÂ ª÷1J$3affe703-835c-4e5e-99fc-7196697f9576
-m	java:S106"+Replace this use of System.out by a logger.(Íµƒ8İÂ ª÷1J$0b501106-5196-457a-9679-a31a3769df9b
-r	java:S106"+Replace this use of System.out by a logger.(ğĞşşıÿÿÿÿ8ŞÂ ª÷1J$a7d46cd2-e72f-4049-ada9-3972a10dacf2
-r	java:S106"+Replace this use of System.out by a logger.(ß†èùÿÿÿÿ8ŞÂ ª÷1J$7e70f469-b639-4361-b14d-7e6946278ac1
-r	java:S106"+Replace this use of System.out by a logger.(Äîøÿÿÿÿÿ8ßÂ ª÷1J$a4884bb5-e0c5-40ed-b544-d8ab9b11f181
-r	java:S106"+Replace this use of System.out by a logger.(Ñ»ã›ûÿÿÿÿ8ßÂ ª÷1J$751f8134-d40f-4495-a5d3-e2027313d824
-r	java:S106"+Replace this use of System.out by a logger.(€³‡¡øÿÿÿÿ8àÂ ª÷1J$52b1d1cf-d681-4883-b7bf-ef96268fddad
-
-java:S1854">Remove this useless assignment to local variable "userChoise".(Ì–ı»8áÂ ª÷1J$061e1417-4d3b-4627-9b9f-3a0dd6372cd9
-r
-java:S1481"/Remove this unused "userChoise" local variable.(Ì–ı»8ãÂ ª÷1J$f8f87d83-67af-4d87-8b3c-d929a5808e56
-{
-java:S1068"3Remove this unused "regexController" private field.(ë¬Òºÿÿÿÿÿ8èÂ ª÷1J$629a00c0-df02-4d98-a65a-96b6425a9155
+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ã„¢Œúÿÿÿÿ8Âğ¹®÷1J$a966bb53-411d-4eff-bbea-62c1bfe26840
+m	java:S106"+Replace this use of System.out by a logger.(Íµƒ8Æğ¹®÷1J$57178718-7af9-4831-a75e-745d6b3a94d0
+r	java:S106"+Replace this use of System.out by a logger.(ğĞşşıÿÿÿÿ8Çğ¹®÷1J$d16f24b3-06c3-4e97-bef4-2e756a58b09a
+r	java:S106"+Replace this use of System.out by a logger.(ß†èùÿÿÿÿ8Çğ¹®÷1J$0792ad32-d07d-40da-91cc-f5c41a8b2605
+r	java:S106"+Replace this use of System.out by a logger.(Äîøÿÿÿÿÿ8Èğ¹®÷1J$ed3b79e9-0bc9-48f9-960e-1fe7978d867f
+r	java:S106"+Replace this use of System.out by a logger.(Ñ»ã›ûÿÿÿÿ8Èğ¹®÷1J$d57abbd0-b55c-43e7-8fe7-0f04c9e23871
+r	java:S106"+Replace this use of System.out by a logger.(€³‡¡øÿÿÿÿ8Èğ¹®÷1J$71191d41-a25b-4e57-8ab4-e5e024744817
+r	java:S106"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Êğ¹®÷1J$ea439232-e966-474c-bd96-00430ddc9ccc
+y
+java:S1172%"1Remove this unused method parameter "userChoice".(Í«œ›ûÿÿÿÿ8Òğ¹®÷1J$5f8b42d1-ffbe-440f-89e7-f21a759b9690

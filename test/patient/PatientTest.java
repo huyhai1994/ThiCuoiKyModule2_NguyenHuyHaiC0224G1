@@ -89,8 +89,6 @@ public class PatientTest {
     assertNotNull( patient2.getHealthRecords(2));
     assertNotNull( patient2.getHealthRecords(3));
     assertNotNull( patient2.getHealthRecords(4));
-
-
   }
 
 }

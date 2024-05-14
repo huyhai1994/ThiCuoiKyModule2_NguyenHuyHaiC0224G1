@@ -20,16 +20,22 @@ public class View {
         System.out.println("Mời bạn chọn chức năng: ");
     }
     public int getChoice(){
-        Scanner scanner = getScanner();
-        return scanner.nextInt();
+        try{
+            Scanner scanner = getScanner();
+            return scanner.nextInt();
+        }
+        catch (Exception e){
+            System.out.println(e.getMessage());
+            throw new IllegalStateException("Nhap sai");
+        }
     }
-    public void navigatingToRegexController(){
-        this.regexController = new RegexController();
-        int userChoise = getChoice();
 
-
-    }
     public Scanner getScanner(){
         return new Scanner(System.in);
+    }
+
+    public void navigateToRegexControllers(int userChoice) {
+        regexController.navigateToPatientManager();
+
     }
 }
